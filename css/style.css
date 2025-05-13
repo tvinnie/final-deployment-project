@@ -1,0 +1,115 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #0066cc;
+  color: white;
+}
+
+.hero .btn {
+  margin-top: 1rem;
+  background: white;
+  color: #0066cc;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.project-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 300px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.testimonials {
+  background: #efefef;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonial {
+  margin: 1rem auto;
+  max-width: 500px;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.contact-section input,
+.contact-section textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-section button {
+  background: #0066cc;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
